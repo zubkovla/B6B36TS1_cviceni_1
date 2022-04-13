@@ -9,4 +9,13 @@ public class Zubkovla {
         }
         return result;
     }
+
+    public static int factorialRecursive(int n){
+        if(n <= 1){
+            return 1;
+        }
+        else{
+            return n*factorialRecursive(n-1);
+        }
+    }
 }
